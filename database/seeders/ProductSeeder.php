@@ -65,7 +65,7 @@ class ProductSeeder extends Seeder
                 'details' => 'Lightweight and warm hoodie with modern athletic fit',
                 'price' => 2199000,
                 'category_id' => 2,
-                'stock' => 60,
+                'stock' => 0,
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
