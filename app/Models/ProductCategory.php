@@ -8,8 +8,16 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 class ProductCategory extends Model
 {
     //
+<<<<<<< HEAD
     public function products():HasMany
     {
         return $this->hasMany(Product::class, 'category_id');
     }
 }
+=======
+    public function products(): HasMany
+    {
+        return $this->hasMany(Product::class, 'category_id');
+    }
+}
+>>>>>>> a17a68c75f0ef523e9974de07746f14d6a06b83e
